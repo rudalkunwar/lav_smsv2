@@ -1,0 +1,261 @@
+/* Custom Color Scheme - Modern Teal & Purple Theme */
+
+/* Navbar - Dark Teal/Cyan */
+.navbar-dark {
+    background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%) !important;
+    box-shadow: 0 2px 8px rgba(13, 148, 136, 0.3);
+}
+
+/* Sidebar Background */
+.sidebar-dark {
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%) !important;
+}
+
+.sidebar-main .nav-sidebar > .nav-item-open > .nav-link:not(.disabled),
+.sidebar-main .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: rgba(20, 184, 166, 0.15) !important;
+    color: #14b8a6 !important;
+}
+
+/* Primary Buttons - Teal */
+.btn-primary,
+.bg-teal,
+.bg-teal-400 {
+    background-color: #14b8a6 !important;
+    border-color: #14b8a6 !important;
+    color: white !important;
+}
+
+.btn-primary:hover,
+.bg-teal:hover,
+.bg-teal-400:hover {
+    background-color: #0d9488 !important;
+    border-color: #0d9488 !important;
+}
+
+/* Secondary Accent - Purple */
+.bg-purple,
+.bg-purple-400 {
+    background: linear-gradient(135deg, #9333ea 0%, #a855f7 100%) !important;
+    color: white !important;
+}
+
+/* Orange Accent */
+.bg-orange,
+.bg-orange-400 {
+    background: linear-gradient(135deg, #f97316 0%, #fb923c 100%) !important;
+    color: white !important;
+}
+
+/* Replace Blue with Teal */
+.bg-blue,
+.bg-blue-400 {
+    background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%) !important;
+    color: white !important;
+}
+
+.bg-indigo,
+.bg-indigo-400 {
+    background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%) !important;
+    color: white !important;
+}
+
+/* Page Header */
+.page-header-light {
+    background: linear-gradient(90deg, #f8fafc 0%, #f1f5f9 100%) !important;
+    border-bottom: 2px solid #14b8a6 !important;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 12px !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none !important;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(13, 148, 136, 0.15) !important;
+}
+
+.card-header {
+    background: linear-gradient(90deg, #f8fafc 0%, #ffffff 100%) !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+}
+
+/* Links - Teal Color */
+a {
+    color: #14b8a6 !important;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #0d9488 !important;
+}
+
+/* Success/Info Colors */
+.bg-success,
+.bg-success-400 {
+    background: linear-gradient(135deg, #10b981 0%, #34d399 100%) !important;
+    color: white !important;
+}
+
+.bg-warning,
+.bg-warning-400 {
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%) !important;
+    color: white !important;
+}
+
+.bg-danger,
+.bg-danger-400 {
+    background: linear-gradient(135deg, #ef4444 0%, #f87171 100%) !important;
+    color: white !important;
+}
+
+/* Table Headers */
+.table thead th {
+    background: linear-gradient(135deg, #14b8a6 0%, #06b6d4 100%) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.table {
+    border-radius: 8px !important;
+    overflow: hidden;
+}
+
+/* Form Controls Focus */
+.form-control:focus,
+.form-select:focus,
+.select2-container--default .select2-selection--single:focus {
+    border-color: #14b8a6 !important;
+    box-shadow: 0 0 0 0.2rem rgba(20, 184, 166, 0.25) !important;
+}
+
+/* Badges */
+.badge-primary {
+    background-color: #14b8a6 !important;
+}
+
+.badge-info {
+    background-color: #06b6d4 !important;
+}
+
+.badge-success {
+    background-color: #10b981 !important;
+}
+
+/* Navigation Pills */
+.nav-pills .nav-link.active {
+    background-color: #14b8a6 !important;
+}
+
+/* Progress Bars */
+.progress-bar {
+    background-color: #14b8a6 !important;
+}
+
+.progress {
+    border-radius: 10px !important;
+    height: 1.2rem !important;
+}
+
+/* Dropdowns */
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(20, 184, 166, 0.1) !important;
+    color: #0d9488 !important;
+}
+
+.dropdown-menu {
+    border-radius: 10px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Icon Colors */
+.icon-primary {
+    color: #14b8a6 !important;
+}
+
+.text-primary {
+    color: #14b8a6 !important;
+}
+
+/* Sidebar Navigation Hover */
+.sidebar-main .nav-sidebar > .nav-item > .nav-link:hover {
+    background-color: rgba(20, 184, 166, 0.1) !important;
+    color: #14b8a6 !important;
+}
+
+/* Alerts */
+.alert-primary {
+    background-color: rgba(20, 184, 166, 0.1) !important;
+    border-color: #14b8a6 !important;
+    color: #0d9488 !important;
+    border-radius: 10px !important;
+}
+
+.alert-success {
+    background-color: rgba(16, 185, 129, 0.1) !important;
+    border-color: #10b981 !important;
+    color: #059669 !important;
+    border-radius: 10px !important;
+}
+
+/* Custom Gradient Background for Cards */
+.has-bg-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.has-bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(255,255,255,0.1)" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,138.7C960,139,1056,117,1152,106.7C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 8px !important;
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Inputs */
+.form-control,
+.form-select {
+    border-radius: 8px !important;
+    border: 1px solid #e2e8f0 !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Page Title */
+.page-title h4 {
+    color: #0f172a !important;
+    font-weight: 600 !important;
+}
+
+/* Stats Cards Text Color */
+.card-body.has-bg-image h3,
+.card-body.has-bg-image span,
+.card-body.has-bg-image i {
+    color: white !important;
+}
+
+.exam-table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
